@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61,<76", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mpnano-sender"
+version = "0.4.0"
+description = "Read-only crop directory to HM30 TCP image sender for Mission Planner"
+requires-python = ">=3.8"
+dependencies = ["Pillow==10.4.0"]
+readme = "README.md"
+
+[project.scripts]
+mpnano-sender = "sender.__main__:main"
+
+[tool.setuptools]
+packages = ["sender"]

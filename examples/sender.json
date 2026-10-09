@@ -1,0 +1,10 @@
+{
+  "port": 8765,
+  "mode": "stable",
+  "scan_interval": 0.2,
+  "stable_seconds": 0.2,
+  "longest_edge": 640,
+  "jpeg_quality": 75,
+  "rate_kib": 128,
+  "log_level": "DEBUG"
+}

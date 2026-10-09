@@ -1,0 +1,2 @@
+# Python 3.8-compatible deployment baseline; record the installed version in reports.
+Pillow==10.4.0

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.local/
+artifacts/
+dist/
+runtime/
+tmp/
+backups/
+*-mis/
+build/
+*.egg-info/
+
+# Shared MP build dependency: retained locally until MP migrates its core.
+/receiver/
